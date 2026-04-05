@@ -6,7 +6,7 @@ This project contains a relational database schema and a set of analytical SQL q
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 .
@@ -16,7 +16,7 @@ This project contains a relational database schema and a set of analytical SQL q
 
 ---
 
-## 🧱 Database Schema (`db_setup.sql`)
+## Database Schema (`db_setup.sql`)
 
 The database is named `auto_sales` and includes the following tables:
 
@@ -71,38 +71,38 @@ The database is named `auto_sales` and includes the following tables:
 
 ---
 
-## 📊 Analysis Queries (`analysis.sql`)
+## Analysis Queries (`analysis.sql`)
 
 The project includes several business-focused SQL queries:
 
-### 🔝 Revenue Analysis
+### Revenue Analysis
 
 * Identify products generating the most revenue
 * Rank products by revenue contribution
 
-### 📦 Product Performance
+### Product Performance
 
 * Determine most frequently ordered products
 * Analyze total quantity sold per product
 
-### 👥 Customer Insights
+### Customer Insights
 
 * Identify the top 20% of customers by revenue (Pareto principle)
 * Rank customers based on spending
 
-### 🌍 Geographic Insights
+### Geographic Insights
 
 * Find countries with the highest number of customers
 * Identify top cities by customer count
 
-### 🏷️ Product Line Performance
+### Product Line Performance
 
 * Analyze which product lines generate the most revenue
 * Rank product lines accordingly
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Set up the database**
 
@@ -120,7 +120,7 @@ The project includes several business-focused SQL queries:
 
 ---
 
-## 📈 Key Concepts Used
+## Key Concepts Used
 
 * Aggregations (`SUM`, `COUNT`)
 * Window functions (`RANK`, `NTILE`)
@@ -130,7 +130,7 @@ The project includes several business-focused SQL queries:
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project is ideal for:
 
@@ -141,14 +141,14 @@ This project is ideal for:
 
 ---
 
-## 📝 Notes
+## Notes
 
 * Ensure your SQL environment supports window functions (e.g., MySQL 8+)
 * Data population scripts are not included and should be added separately
 
 ---
 
-## 📬 Future Improvements
+## Future Improvements
 
 * Add sample dataset for testing
 * Create dashboards (e.g., Tableau, Power BI)
